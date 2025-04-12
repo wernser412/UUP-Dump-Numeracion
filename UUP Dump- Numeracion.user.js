@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         UUP Dump: Numeración
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.5.1
 // @description  Enumera los archivos y añade un botón para copiar el nombre del archivo al portapapeles.
 // @match        *://uupdump.net/*
+// @downloadURL  https://github.com/wernser412/UUP-Dump-Numeracion/raw/refs/heads/main/UUP%20Dump-%20Numeracion.user.js
 // @author       wernser412
 // @grant        none
 // ==/UserScript==
