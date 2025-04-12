@@ -27,6 +27,21 @@ Este script de Tampermonkey agrega numeración a los archivos listados en la pá
 
 ---
 
+## 🚀 📥 Comando para descargar con aria2:
+
+<pre>
+   aria2c -i descargas.txt -x 8 -s 8 --continue
+</pre>
+🔹 Explicación de los parámetros:
+
+- -i descargas.txt: usa la lista de URLs generada
+
+- -x 8: permite hasta 8 conexiones por archivo
+
+- -s 8: descarga hasta 8 archivos en paralelo
+
+- --continue: permite reanudar descargas si se interrumpen
+
 ## 🛠️ Cómo funciona
 
 - El script detecta la tabla de archivos automáticamente.
