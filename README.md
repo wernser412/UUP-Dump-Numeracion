@@ -1,20 +1,40 @@
-# 🖍️ UUP Dump: Numeración
+# 🖍️ UUP Dump: Numeración + Descarga con aria2
 
-Este script de Tampermonkey agrega numeración a los archivos listados en la página de [UUP Dump](https://uupdump.net) y permite copiar el nombre del archivo al portapapeles con un solo clic. Ideal para usuarios que necesitan descargar múltiples archivos y no quieren perder tiempo buscando y copiando los nombres manualmente.
+Este script de Tampermonkey agrega numeración a los archivos listados en la página de [UUP Dump](https://uupdump.net) y ofrece herramientas útiles como copiar nombres y URLs de archivos, además de generar un archivo compatible con **aria2** para descargar todo de forma masiva.
+
+---
 
 ## ✨ Características
 
-- **Numeración automática**: Cada archivo tiene un número secuencial al lado del nombre.
-- **Copiar al portapapeles**: Un botón que permite copiar el nombre del archivo con un solo clic.
-- **Interfaz sencilla**: No modifica el diseño original de la página, solo añade funcionalidades.
-  
+- 🔢 **Numeración automática**: Cada archivo tiene un número secuencial al lado del nombre.
+- 📋 **Copiar nombre del archivo**: Un botón que permite copiar el nombre del archivo con un solo clic.
+- 📍 **Copiar URL del archivo**: También puedes copiar directamente la URL de descarga.
+- ⬇️ **Descarga con aria2**: Botón para generar un archivo `descargas.txt` listo para usar con [aria2](https://aria2.github.io/).
+- 💡 **Interfaz no invasiva**: No modifica el diseño original de la página, solo añade funcionalidades útiles.
+
+---
+
 ## 🚀 Instalación
 
 1. Instala la extensión **[Tampermonkey](https://www.tampermonkey.net/)** en tu navegador (compatible con Chrome, Firefox, Edge, y otros).
-2. Abre Tampermonkey y selecciona la opción **"Crear un nuevo script"**.
-3. Copia y pega el contenido del archivo [`script.js`](https://github.com/wernser412/UUP-Dump-Numeracion/raw/refs/heads/main/UUP%20Dump-%20Numeracion.user.js) en el editor de Tampermonkey.
-4. Guarda el script y asegúrate de que esté habilitado.
-3. **Visitar UUP Dump**: Abre [UUP Dump](https://uupdump.net) y verás los archivos con numeración y los botones para copiar los nombres.
+2. Haz clic en este enlace para instalar el script:  
+   👉 **[Descargar Script](https://github.com/wernser412/UUP-Dump-Numeracion/raw/refs/heads/main/UUP%20Dump-%20Numeracion.user.js)**
+3. Visita [UUP Dump](https://uupdump.net/) o una URL como `https://uupdump.net/get.php?...`
+4. Verás:
+   - Los archivos numerados
+   - Botones "📋 Copiar nombre" y "📍 Copiar URL"
+   - Y arriba, un botón para **"⬇️ Descargar con aria2"**
+
+---
+
+## 🛠️ Cómo funciona
+
+- El script detecta la tabla de archivos automáticamente.
+- Numera cada entrada.
+- Agrega botones para copiar nombre y URL.
+- El botón de aria2 genera automáticamente un archivo `descargas.txt` en este formato:
+
+---
 
 ## 🎨 Cómo funciona
 
@@ -22,13 +42,13 @@ Este script de Tampermonkey agrega numeración a los archivos listados en la pá
 - Agrega un botón "Copiar" al lado de cada archivo.
 - Al hacer clic en el botón "Copiar", el nombre del archivo se copia automáticamente al portapapeles.
 
-## 🛠️ Personalización
-
-Puedes personalizar el ícono del botón de copiar y otros estilos cambiando el valor de la constante `iconoCopiar`. También puedes modificar la apariencia del botón a tu gusto.
+---
 
 ## 🤝 Contribuciones
 
 Si tienes ideas para mejorar este script, no dudes en abrir un **issue** o enviar un **pull request**.
+
+---
 
 ## 📜 Licencia
 
