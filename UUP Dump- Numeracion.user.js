@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         UUP Dump: Numeración + Aria2 Export
 // @namespace    http://tampermonkey.net/
-// @version      2.2
+// @version      2025.09.08
 // @description  Enumera los archivos, añade botones para copiar nombre/URL y genera archivo aria2 para descarga masiva.
 // @match        *://uupdump.net/get.php*
 // @icon         https://github.com/wernser412/UUP-Dump-Numeracion/raw/refs/heads/main/icono.svg
