@@ -1,5 +1,7 @@
 # 🖍️ UUP Dump: Numeración + Descarga con aria2
 
+**Última Actualización:** 08 de septiembre de 2025
+
 Este script de Tampermonkey agrega numeración a los archivos listados en la página de [UUP Dump](https://uupdump.net) y ofrece herramientas útiles como copiar nombres y URLs de archivos, además de generar un archivo compatible con **aria2** para descargar todo de forma masiva.
 
 ---
